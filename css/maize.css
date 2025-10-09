@@ -6,27 +6,11 @@ div img{
   }
 
 body{
-    background-image: url("../assets/MainscreenOF.png");
+    background: url("../assets/MainscreenOF.png") fixed no-repeat;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-input#options{
-    display: flex;
-    position: absolute;
-    top: 59%; left:50%; right:auto; bottom:40%;
-
-}
-
-input#options:hover{
-    background-color:rgba(139, 208, 227, 0.4);
-} 
-    
-
-input#options:active{
-
-}
 
 .flexLogo {
     display: flex;
@@ -39,27 +23,7 @@ input#options:active{
     top:30%; left:0; right:0; bottom:30%;
     margin:auto;
   }
-.startBtn{
-    display: flex;
-    flex-direction: column;
-    position:absolute;
-    top:60%; left:30%; right:auto; bottom: 40%;
-    background-image: url("../assets/start.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-.startBtn:hover{
-    filter: contrast(2);
-}
 
-.startBtn:active{
-    background-image: url("../assets/start_press.png");
-}
   @keyframes logoShake{
 
   }
