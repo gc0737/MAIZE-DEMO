@@ -1,4 +1,7 @@
-.image-container header {
+div img{
+    display: flex;
+    position: absolute;
+    justify-content: center;
     
     
 }

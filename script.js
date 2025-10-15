@@ -1,0 +1,4 @@
+fetch("http://localhost:8080/data")
+    .then(res => res.json)
+    .then(data => console.log(data))
+    
