@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+import Phaser from 'phaser'
+=======
 export class Start extends Phaser.Scene{
 
     constructor(){
@@ -21,3 +24,4 @@ export class Start extends Phaser.Scene{
 
 
 }
+>>>>>>> c1aaae061e7fdf1a69415da04f4576e5679d75af
