@@ -7,10 +7,10 @@ export class Boot extends Phaser.Scene
 
     preload()
     {
-    this.add.image('start','assets/start.png')
-    this.add.image('start_p', 'assets/start_press.png')
-    this.add.image('opt', 'assets/option.png')
-    this.add.image('opt_p','assets/option_press.png')
+        this.load.baseURL('start', 'http://localhost/MAIZE-demo/assets/start.png');
+        this.load.baseURL('start_p','http://localhost/MAIZE-demo/assets/start_press.png');
+        this.load.baseURL('options','http://localhost/MAIZE-demo/assets/option.png');
+        this.load.baseURL('option_p', 'http://localhost/MAIZE-demo/assets/option_press.png');
     }
 
     create()
