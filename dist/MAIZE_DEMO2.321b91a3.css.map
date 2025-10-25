@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;;;AAOA","sources":["src/maize.css"],"sourcesContent":[".gCanvas{\r\n  margin: auto;\r\n  height:100vh;\r\n  width: 100vh;\r\n  background: #5f9ca1;\r\n}\r\n\r\nbody{\r\n  background-color: #144e4e;\r\n}"],"names":[],"version":3,"file":"MAIZE_DEMO2.321b91a3.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,12 +1,19 @@
 {
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "lodash": "^4.17.21",
     "phaser": "^3.90.0"
   },
+  "name": "my-library",
+  "version": "1.0.0",
+  "source": "src/Main.js",
+  "main": "dist/Maize.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
   "devDependencies": {
-    "webpack": "^5.102.1",
-    "webpack-cli": "^6.0.1"
+    "@types/jquery": "^3.5.33",
+    "parcel": "^2.16.0"
   }
 }

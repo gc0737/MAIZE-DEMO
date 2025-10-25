@@ -1,0 +1,10 @@
+.gCanvas{
+  margin: auto;
+  height:100vh;
+  width: 100vh;
+  background: #5f9ca1;
+}
+
+body{
+  background-color: #144e4e;
+}
